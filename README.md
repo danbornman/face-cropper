@@ -8,11 +8,26 @@ output directory.
 
 ## Setup
 
-**Install dependencies** (OpenCV is the only requirement):
+**1. Create and activate a virtual environment:**
+
+```bash
+# Create the venv
+python -m venv venv
+
+# Activate it — macOS/Linux:
+source venv/bin/activate
+
+# Activate it — Windows:
+venv\Scripts\activate
+```
+
+**2. Install dependencies** (OpenCV is the only requirement):
 
 ```bash
 pip install -r requirements.txt
 ```
+
+> To deactivate the virtual environment when you're done, just run `deactivate`.
 
 ---
 
